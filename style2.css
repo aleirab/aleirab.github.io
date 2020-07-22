@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 1024;
+    height: 768;
+    background-color: #3021bf;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+}
+
+.point{
+    background-color: #000;
+    opacity: 32%;
+    color: #fff;
+    width: 971px;
+    height: 90px;
+    position: absolute;
+    top: 180px;
+    left: 221px;
+    font-size: 35px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    padding-top: 22px;
+    border-radius: 80px;
+    
+}
+
+.story1{
+    background-color: #ff8a33;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 339px;
+    left: 940px;
+    border-radius: 50px;
+}
+.story2{
+    background-color: #ff8a33;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 339px;
+    left: 619px;
+    border-radius: 50px;
+}
+.fontsize{
+    font-size: 60px;
+    top: 43px
+}
+.story3{
+    background-color: #ff8a33;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 339px;
+    left: 265px;
+    border-radius: 50px;
+}
+
+
+
+span{
+    font-size: 65px;
+    font-family: 'Changa', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 35px;
+    left: 9px;
+}
+
+
+.btn{
+    width: 60px;
+    height: 60px;
+    background-color: #23d87d;
+    position: absolute;
+    top: 554px;
+    left: 1014px;
+    border-radius: 50%;
+    transform: scale(1);
+    animation: zoom 2s ;
+    animation-iteration-count: infinite;
+}
+
+.small{
+    width: 40px;
+    height: 40px;
+    background-color: #167543;
+    opacity: 23%;
+    position: absolute;
+    top: 564px;
+    left: 1024px;
+    border-radius: 50%;
+    transform: scale(1);
+    animation: zoom 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse
+}
+
+.small:hover{
+    background-color: #3021bf;    
+}
+
+.btn2{
+    position: absolute;
+    left: -325px;
+    top: 0px;
+}
+
+
+.btn3{
+    position: absolute;
+    left:  -677px;
+    top: 0px;
+}
+
+
+
+
+@keyframes zoom{
+    0%{transform: scale(1.3)}
+    50%{transform: scale(1)}
+    100%{transform: scale(1.3)}
+}
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 1024;
+    height: 768;
+    background-color: #3021bf;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 680px;
+    width: 532px;
+    height: 272px
+}
+
+.point{
+    background-color: #000;
+    opacity: 32%;
+    color: #fff;
+    width: 971px;
+    height: 90px;
+    position: absolute;
+    top: 372px;
+    left: 130px;
+    font-size: 35px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    padding-top: 22px;
+    border-radius: 80px;
+    
+}
+
+.story1{
+    background-color: #ff8a33;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 810px;
+    left: 537px;
+    border-radius: 50px;
+    transform: scale(3.2)
+}
+.story2{
+    background-color: #ff8a33;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 1800px;
+    left: 537px;
+    border-radius: 50px;
+    transform: scale(3.2)
+}
+.fontsize{
+    font-size: 60px;
+    top: 43px
+}
+.story3{
+    background-color: #ff8a33;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 2797px;
+    left: 537px;
+    border-radius: 50px;
+    transform: scale(3.2)
+}
+
+
+
+span{
+    font-size: 65px;
+    font-family: 'Changa', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 35px;
+    left: 9px;
+}
+
+
+.btn{
+    width: 200px;
+    height: 200px;
+    background-color: #23d87d;
+    position: absolute;
+    top: 554px;
+    left: 1014px;
+    border-radius: 50%;
+    transform: scale(1);
+    animation: zoom 2s ;
+    animation-iteration-count: infinite;
+}
+
+.small{
+    width: 120px;
+    height: 120px;
+    background-color: #167543;
+    opacity: 23%;
+    position: absolute;
+    top: 589px;
+    left: 1052px;
+    border-radius: 50%;
+    transform: scale(1);
+    animation: zoom 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse
+}
+
+.small:hover{
+    background-color: #3021bf;    
+}
+
+.first{
+    position: absolute;
+    left: -454px;
+    top: 741px;
+}
+
+.btn2{
+    position: absolute;
+    left: -454px;
+    top: 1742px;
+}
+
+
+.btn3{
+    position: absolute;
+    left:  -454px;
+     top: 2742px;
+}
+
+
+
+
+@keyframes zoom{
+    0%{transform: scale(1.3)}
+    50%{transform: scale(1)}
+    100%{transform: scale(1.3)}
+}
+    
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
